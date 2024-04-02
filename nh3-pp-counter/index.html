@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>pp counter</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./deps/main.css">
+</head>
+
+<body>
+  <div class="background">
+    <div class="pp-counter">
+      <p class="pp">PP: <span id="pp"></span></p>
+    </div>
+    <div class="rest-counter">
+      <div class="100s">
+        <img src="./deps/100x.png">
+        <span id="h100"></span>
+      </div>
+      <div class="50s">
+        <img src="./deps/50x.png">
+        <span id="h50"></span>
+      </div>
+      <div class="misses">
+        <img src="./deps/miss.png">
+        <span id="h0"></span>
+      </div>
+    </div>
+  </div>
+  <span id="pp"></span>
+  <span id="h100"></span>
+  <span id="h50"></span>
+  <span id="h0"></span>
+  <script src="deps/reconnecting-websocket.min.js"></script>
+  <script src="deps/countUp.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

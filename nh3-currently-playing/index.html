@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>currently playing</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./deps/main.css">
+  <link rel="stylesheet" href="./deps/solid.css">
+</head>
+
+<body>
+  
+  <div id="background">
+    <div class="info">
+      <div id="title"></div>
+      <div class="mapInfo">
+        <div class="stars">
+          <p style="font-weight: 900; color: yellow; font-family: 'Font Awesome 6 Free'; margin-right: 8px; "></p>
+          <p id="stars">7.2</p>
+        </div>
+        <p id="difficulty"></p>
+        <div class="status">
+          <p id="icon"></p>
+          <span id="rankStatus">Ranked</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="deps/countUp.js"></script>
+  <script src="deps/reconnecting-websocket.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
