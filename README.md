@@ -7,8 +7,8 @@ Example setup:
 
 Currently Playing:   
 ![image](./img/currentlyPlaying.png)
-Recomended size: W:1870 H:190
+Recommended size: W:1870 H:190
 
 PP Counter:  
 ![image](./img/ppCounter.png)  
-Recomended size: W:440 H:200
+Recommended size: W:440 H:200
